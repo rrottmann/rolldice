@@ -15,7 +15,7 @@ class Dice:
     def __init__(self, num_sides):
         self.num_sides = num_sides
         self.rolls = []
-        logger.debug(f"Initiated D(")
+        logger.debug(f"Initiated D{num_sides}")
 
     def roll_dice(self, value=None):
         if value is None:
